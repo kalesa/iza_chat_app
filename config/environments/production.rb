@@ -84,6 +84,6 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  #config.action_cable.allowed_request_origins = ['https://sitepoint-actioncable.herokuapp.com',
-                                                 'http://sitepoint-actioncable.herokuapp.com']
+  config.action_cable.allowed_request_origins = ['https://secret-dusk-41552.herokuapp.com',
+                                                 'http://secret-dusk-41552.herokuapp.com']
 end
